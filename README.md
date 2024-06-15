@@ -25,7 +25,7 @@ class BankAccount:
             print("Insufficient funds for transfer")
 
     def get_account_info(self):
-        return f"Account holder: {self._name}\nAccount number: {self.account_number}\nBalance: {self._balance}"
+        return f"Account holder: {self.__name}\nAccount number: {self.__account_number}\nBalance: {self.__balance}"
 
     def get_account_number(self):
         return self.__account_number
